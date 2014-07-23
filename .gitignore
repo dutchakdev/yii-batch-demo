@@ -1,0 +1,6 @@
+.idea/*
+assets/*
+vendor/*
+composer.lock
+protected/runtime/*
+atlassian-ide-plugin.xml

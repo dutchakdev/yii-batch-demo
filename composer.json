@@ -1,0 +1,15 @@
+{
+	"name": "dutchakdev/yii-batch-demo",
+	"description": "",
+	"minimum-stability": "alpha",
+	"authors": [
+		{
+			"name": "Roman Dutchak",
+			"email": "dutchakdev@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii": "1.*"
+	}
+
+}
