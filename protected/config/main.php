@@ -12,11 +12,15 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+    'aliases' => array(
+        'vendor' =>  'application.vendor',
+    ),
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-	),
+        'vendor.dutchakdev.yii-batch.Batch',
+    ),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool

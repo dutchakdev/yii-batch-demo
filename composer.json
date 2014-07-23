@@ -9,7 +9,11 @@
 		}
 	],
 	"require": {
-		"yiisoft/yii": "1.*"
+		"yiisoft/yii": "1.*",
+		"dutchakdev/yii-batch": "@dev"
+	},
+	"config": {
+		"vendor-dir": "protected/vendor"
 	}
 
 }
